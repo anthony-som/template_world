@@ -8,9 +8,24 @@
       <uri>model://ground_plane</uri>
     </include>
     <include>
-      <uri>file:///home/asom/ros2_ws/src/template_world/models/CreditCube</uri>
+      <uri>model://Table</uri>
+      <name>Table</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://CreditCube</uri>
       <name>CreditCube</name>
-      <pose>2 -0.655982 0 0 -0 0</pose>
+      <pose>0 0 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://TransportBox</uri>
+      <name>TransportBox</name>
+      <pose>0.3 0 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://Panel</uri>
+      <name>Panel</name>
+      <pose>-1 0 0 0 0 0</pose>
     </include>
   </world>
 </sdf>
